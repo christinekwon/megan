@@ -39,9 +39,9 @@ document.body.appendChild(canvas);
 // Set up controls
 const controls = new OrbitControls(camera, canvas);
 controls.autoRotate = true;
-controls.autoRotateSpeed = 1.0;
+controls.autoRotateSpeed = 1.0
 controls.enableDamping = true;
-// controls.enablePan = false;
+controls.enablePan = false;
 // controls.minDistance = 4;
 controls.maxDistance = 30;
 controls.target = new Vector3(0,1,0);
@@ -76,14 +76,13 @@ document.addEventListener('keyup', event => {
     }
 })
 
-// prevent mouse movement from being registered on the document object
 document.addEventListener('mousedown', onMouseDown, false);
 document.addEventListener('mousemove', onMouseMove, false);
 
 function onMouseDown(event) {
     event.preventDefault();
     var mouse = new THREE.Vector2();
-    mouse.x = - (event.clientX / window.innerWidth) * 2 - 1;
+    mouse.x = (event.clientX / window.innerWidth) * 2 - 1;
     mouse.y = - (event.clientY / window.innerHeight) * 2 + 1;
     var raycaster = new THREE.Raycaster();
     raycaster.setFromCamera(mouse, camera);

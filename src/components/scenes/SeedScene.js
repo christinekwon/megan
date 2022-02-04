@@ -24,21 +24,18 @@ const VIOLET0 = 0x9359DF;
 const GREY = 0xffffff;
 const PINK = 0xFF61A9;
 const quotes = [
-    "\"some people are worth melting for\"<br><br><br>olaf",
-    "\"the best and most beautiful things in this world cannot be seen or even heard, but must be felt with the heart.\"<br><br><br>helen keller",
-    "\"out of suffering have emerged the strongest souls;<br>the most massive characters are seared with scars.\"<br><br><br>kahlil gibran",
-    "\"life is not measured by the number of breaths we take,<br>but by the moments that take our breath away.\"<br><br><br>maya angelou",
-    // "\"be more concerned with your character than your reputation,<br>because your character is what you really are,<br>while your reputation is merely what others think you are.\"<br><br><br>john wooden",
-    "\"give every day the chance to become the most beautiful day of your life.\"<br><br><br>mark twain",
-    "\"do not pray for an easy life,<br>pray for the strength to endure a difficult one.\"<br><br><br>bruce lee",
-    "\"i have found that if you love life, life will love you back.\"<br><br><br>arthur rubinstein",
-    "\"don’t ask what the world needs.<br>ask what makes you come alive and go do it.<br>because what the world needs are more people who have, life.\"<br><br><br>howard thurman",
-    "\"i have been impressed with the urgency of doing.<br>knowing is not enough; we must apply.<br>being willing is not enough; we must do.\"<br><br><br>leonardo da vinci",
-    "\"happiness is like a butterfly.<br>the more you chase it, the more it eludes you.<br>but if you turn your attention to other things,<br>it comes and sits softly on your shoulder.\"<br><br><br>henry david thoreau",
-    "\"thousands of candles can be lit from a single candle,<br>and the life of the candle will not be shortened.<br>happiness never decreases by being shared.\"<br><br><br>buddha",
-    "\"the foolish man seeks happiness in the distance,<br>the wise grows it under his feet.\"<br><br><br>james oppenheim",
-    "\"everything has beauty, but not everyone can see.\"<br><br><br>confucius",
-    "\"what you get by achieving your goals is not as important as what you become by achieving your goals.\"<br><br><br>henry david thoreau"
+    "the way the corners of your eyes crinkle when you smile",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
+    "*",
 ];
 
 class SeedScene extends Scene {
