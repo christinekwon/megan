@@ -70,7 +70,6 @@ class SeedScene extends Scene {
 
         // 5 14
         // 9
-        let texture = Images[0];
 
         let imageList = this.getImages();
 
